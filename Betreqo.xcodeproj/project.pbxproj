@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0BCFE82B7F6B69004CC78F /* Dictationa2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFE72B7F6B69004CC78F /* Dictationa2.swift */; };
+		EA0BCFEA2B7F6B77004CC78F /* Dictationa3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFE92B7F6B77004CC78F /* Dictationa3.swift */; };
+		EA0BCFEC2B7F6B83004CC78F /* Dictationa4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFEB2B7F6B83004CC78F /* Dictationa4.swift */; };
+		EA0BCFEE2B7F6B8F004CC78F /* Dictationa5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFED2B7F6B8F004CC78F /* Dictationa5.swift */; };
+		EA0BCFF02B7F6B9B004CC78F /* Dictationa6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFEF2B7F6B9B004CC78F /* Dictationa6.swift */; };
+		EA0BCFF22B7F6BA7004CC78F /* Dictationa7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFF12B7F6BA7004CC78F /* Dictationa7.swift */; };
+		EA0BCFF42B7F6BB1004CC78F /* Dictationa8.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFF32B7F6BB1004CC78F /* Dictationa8.swift */; };
+		EA0BCFF62B7F6BBC004CC78F /* Dictationa9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFF52B7F6BBC004CC78F /* Dictationa9.swift */; };
+		EA0BCFF82B7F7A9E004CC78F /* Dictationa1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0BCFF72B7F7A9E004CC78F /* Dictationa1.swift */; };
+		EA5B52242B7ECD5800C80346 /* AnimalStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B52232B7ECD5800C80346 /* AnimalStoryView.swift */; };
+		EA5B52262B7ECD6B00C80346 /* PlantStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B52252B7ECD6B00C80346 /* PlantStoryView.swift */; };
+		EA5B52282B7ECD7E00C80346 /* SpaceStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B52272B7ECD7E00C80346 /* SpaceStoryView.swift */; };
+		EA5B522C2B7ECFB700C80346 /* AnimalStory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B522B2B7ECFB700C80346 /* AnimalStory1.swift */; };
+		EA5B522E2B7ECFC500C80346 /* AnimalStory2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B522D2B7ECFC500C80346 /* AnimalStory2.swift */; };
+		EA5B52302B7ECFD800C80346 /* AnimalStory3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B522F2B7ECFD800C80346 /* AnimalStory3.swift */; };
+		EA5B52332B7ED45B00C80346 /* PlantStory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B52322B7ED45B00C80346 /* PlantStory1.swift */; };
+		EA5B52372B7ED48600C80346 /* PlantStory2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B52362B7ED48600C80346 /* PlantStory2.swift */; };
+		EA5B52392B7ED49E00C80346 /* PlantStory3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B52382B7ED49E00C80346 /* PlantStory3.swift */; };
+		EA5B523C2B7ED4C600C80346 /* SpaceStory1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B523B2B7ED4C600C80346 /* SpaceStory1.swift */; };
+		EA5B523E2B7ED4D800C80346 /* SpaceStory2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B523D2B7ED4D800C80346 /* SpaceStory2.swift */; };
+		EA5B52402B7ED4E600C80346 /* SpaceStory3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5B523F2B7ED4E600C80346 /* SpaceStory3.swift */; };
+		EAE32B762ADE6CED00D74F7A /* BetreqoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32B752ADE6CED00D74F7A /* BetreqoApp.swift */; };
+		EAE32B782ADE6CED00D74F7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32B772ADE6CED00D74F7A /* ContentView.swift */; };
+		EAE32B7A2ADE6CED00D74F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE32B792ADE6CED00D74F7A /* Assets.xcassets */; };
+		EAE32B7D2ADE6CED00D74F7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE32B7C2ADE6CED00D74F7A /* Preview Assets.xcassets */; };
+		EAE32B842ADE6DBE00D74F7A /* CustumColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32B832ADE6DBE00D74F7A /* CustumColor.swift */; };
+		EAE32B882ADE6E2A00D74F7A /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32B872ADE6E2A00D74F7A /* ColorPickerView.swift */; };
+		EAE32B8A2ADE6E6500D74F7A /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32B892ADE6E6500D74F7A /* Contents.swift */; };
+		EAE32B8D2ADE6EEE00D74F7A /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EAE32B8C2ADE6EEE00D74F7A /* ConfettiSwiftUI */; };
+		EAE32B8F2ADE70CD00D74F7A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32B8E2ADE70CD00D74F7A /* SplashScreen.swift */; };
+		EAE32B922ADE71F300D74F7A /* Ithra in Resources */ = {isa = PBXBuildFile; fileRef = EAE32B912ADE71F300D74F7A /* Ithra */; };
+		EAE32B952ADE72C300D74F7A /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE32B942ADE72C300D74F7A /* MainScreen.swift */; };
+		EAE63D782B7F91780030CFCA /* Dictationp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D772B7F91770030CFCA /* Dictationp1.swift */; };
+		EAE63D7A2B7F91820030CFCA /* Dictationp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D792B7F91820030CFCA /* Dictationp2.swift */; };
+		EAE63D7C2B7F918B0030CFCA /* Dictationp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D7B2B7F918B0030CFCA /* Dictationp3.swift */; };
+		EAE63D7E2B7F91950030CFCA /* Dictationp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D7D2B7F91950030CFCA /* Dictationp4.swift */; };
+		EAE63D802B7F919F0030CFCA /* Dictationp5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D7F2B7F919F0030CFCA /* Dictationp5.swift */; };
+		EAE63D822B7F91A90030CFCA /* Dictationp6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D812B7F91A90030CFCA /* Dictationp6.swift */; };
+		EAE63D842B7F91BD0030CFCA /* Dictationp7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D832B7F91BD0030CFCA /* Dictationp7.swift */; };
+		EAE63D862B7F91C80030CFCA /* Dictationp8.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D852B7F91C80030CFCA /* Dictationp8.swift */; };
+		EAE63D882B7F91D20030CFCA /* Dictationp9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D872B7F91D20030CFCA /* Dictationp9.swift */; };
+		EAE63D8C2B7F99C00030CFCA /* Dictations1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D8B2B7F99C00030CFCA /* Dictations1.swift */; };
+		EAE63D8E2B7F99D10030CFCA /* Dictations2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D8D2B7F99D10030CFCA /* Dictations2.swift */; };
+		EAE63D902B7F99DB0030CFCA /* Dictations3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D8F2B7F99DB0030CFCA /* Dictations3.swift */; };
+		EAE63D922B7F99E60030CFCA /* Dictations4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D912B7F99E60030CFCA /* Dictations4.swift */; };
+		EAE63D942B7F99F00030CFCA /* Dictations5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D932B7F99F00030CFCA /* Dictations5.swift */; };
+		EAE63D962B7F99FB0030CFCA /* Dictations6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D952B7F99FB0030CFCA /* Dictations6.swift */; };
+		EAE63D982B7F9A050030CFCA /* Dictations7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D972B7F9A050030CFCA /* Dictations7.swift */; };
+		EAE63D9A2B7F9A0F0030CFCA /* Dictations8.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D992B7F9A0F0030CFCA /* Dictations8.swift */; };
+		EAE63D9C2B7F9A1A0030CFCA /* Dictations9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE63D9B2B7F9A1A0030CFCA /* Dictations9.swift */; };
+		EAF57BA72ADE7C5100112D37 /* ReadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF57BA62ADE7C5100112D37 /* ReadingScreen.swift */; };
+		EAF57BAD2ADE820A00112D37 /* CelebrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF57BAC2ADE820A00112D37 /* CelebrationScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA0BCFE72B7F6B69004CC78F /* Dictationa2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa2.swift; sourceTree = "<group>"; };
+		EA0BCFE92B7F6B77004CC78F /* Dictationa3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa3.swift; sourceTree = "<group>"; };
+		EA0BCFEB2B7F6B83004CC78F /* Dictationa4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa4.swift; sourceTree = "<group>"; };
+		EA0BCFED2B7F6B8F004CC78F /* Dictationa5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa5.swift; sourceTree = "<group>"; };
+		EA0BCFEF2B7F6B9B004CC78F /* Dictationa6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa6.swift; sourceTree = "<group>"; };
+		EA0BCFF12B7F6BA7004CC78F /* Dictationa7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa7.swift; sourceTree = "<group>"; };
+		EA0BCFF32B7F6BB1004CC78F /* Dictationa8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa8.swift; sourceTree = "<group>"; };
+		EA0BCFF52B7F6BBC004CC78F /* Dictationa9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa9.swift; sourceTree = "<group>"; };
+		EA0BCFF72B7F7A9E004CC78F /* Dictationa1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationa1.swift; sourceTree = "<group>"; };
+		EA5B52232B7ECD5800C80346 /* AnimalStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStoryView.swift; sourceTree = "<group>"; };
+		EA5B52252B7ECD6B00C80346 /* PlantStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStoryView.swift; sourceTree = "<group>"; };
+		EA5B52272B7ECD7E00C80346 /* SpaceStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceStoryView.swift; sourceTree = "<group>"; };
+		EA5B522B2B7ECFB700C80346 /* AnimalStory1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStory1.swift; sourceTree = "<group>"; };
+		EA5B522D2B7ECFC500C80346 /* AnimalStory2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStory2.swift; sourceTree = "<group>"; };
+		EA5B522F2B7ECFD800C80346 /* AnimalStory3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalStory3.swift; sourceTree = "<group>"; };
+		EA5B52322B7ED45B00C80346 /* PlantStory1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStory1.swift; sourceTree = "<group>"; };
+		EA5B52362B7ED48600C80346 /* PlantStory2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStory2.swift; sourceTree = "<group>"; };
+		EA5B52382B7ED49E00C80346 /* PlantStory3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStory3.swift; sourceTree = "<group>"; };
+		EA5B523B2B7ED4C600C80346 /* SpaceStory1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceStory1.swift; sourceTree = "<group>"; };
+		EA5B523D2B7ED4D800C80346 /* SpaceStory2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceStory2.swift; sourceTree = "<group>"; };
+		EA5B523F2B7ED4E600C80346 /* SpaceStory3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceStory3.swift; sourceTree = "<group>"; };
+		EAE32B722ADE6CED00D74F7A /* Betreqo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betreqo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE32B752ADE6CED00D74F7A /* BetreqoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetreqoApp.swift; sourceTree = "<group>"; };
+		EAE32B772ADE6CED00D74F7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAE32B792ADE6CED00D74F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE32B7C2ADE6CED00D74F7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAE32B832ADE6DBE00D74F7A /* CustumColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumColor.swift; sourceTree = "<group>"; };
+		EAE32B872ADE6E2A00D74F7A /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		EAE32B892ADE6E6500D74F7A /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		EAE32B8E2ADE70CD00D74F7A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		EAE32B912ADE71F300D74F7A /* Ithra */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ithra; sourceTree = "<group>"; };
+		EAE32B932ADE726100D74F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAE32B942ADE72C300D74F7A /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		EAE63D772B7F91770030CFCA /* Dictationp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp1.swift; sourceTree = "<group>"; };
+		EAE63D792B7F91820030CFCA /* Dictationp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp2.swift; sourceTree = "<group>"; };
+		EAE63D7B2B7F918B0030CFCA /* Dictationp3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp3.swift; sourceTree = "<group>"; };
+		EAE63D7D2B7F91950030CFCA /* Dictationp4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp4.swift; sourceTree = "<group>"; };
+		EAE63D7F2B7F919F0030CFCA /* Dictationp5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp5.swift; sourceTree = "<group>"; };
+		EAE63D812B7F91A90030CFCA /* Dictationp6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp6.swift; sourceTree = "<group>"; };
+		EAE63D832B7F91BD0030CFCA /* Dictationp7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp7.swift; sourceTree = "<group>"; };
+		EAE63D852B7F91C80030CFCA /* Dictationp8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp8.swift; sourceTree = "<group>"; };
+		EAE63D872B7F91D20030CFCA /* Dictationp9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictationp9.swift; sourceTree = "<group>"; };
+		EAE63D8B2B7F99C00030CFCA /* Dictations1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations1.swift; sourceTree = "<group>"; };
+		EAE63D8D2B7F99D10030CFCA /* Dictations2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations2.swift; sourceTree = "<group>"; };
+		EAE63D8F2B7F99DB0030CFCA /* Dictations3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations3.swift; sourceTree = "<group>"; };
+		EAE63D912B7F99E60030CFCA /* Dictations4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations4.swift; sourceTree = "<group>"; };
+		EAE63D932B7F99F00030CFCA /* Dictations5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations5.swift; sourceTree = "<group>"; };
+		EAE63D952B7F99FB0030CFCA /* Dictations6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations6.swift; sourceTree = "<group>"; };
+		EAE63D972B7F9A050030CFCA /* Dictations7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations7.swift; sourceTree = "<group>"; };
+		EAE63D992B7F9A0F0030CFCA /* Dictations8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations8.swift; sourceTree = "<group>"; };
+		EAE63D9B2B7F9A1A0030CFCA /* Dictations9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictations9.swift; sourceTree = "<group>"; };
+		EAF57BA62ADE7C5100112D37 /* ReadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingScreen.swift; sourceTree = "<group>"; };
+		EAF57BAC2ADE820A00112D37 /* CelebrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE32B6F2ADE6CED00D74F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE32B8D2ADE6EEE00D74F7A /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0BCFE42B7F6B25004CC78F /* Dictation */ = {
+			isa = PBXGroup;
+			children = (
+				EA0BCFF72B7F7A9E004CC78F /* Dictationa1.swift */,
+				EA0BCFE72B7F6B69004CC78F /* Dictationa2.swift */,
+				EA0BCFE92B7F6B77004CC78F /* Dictationa3.swift */,
+				EA0BCFEB2B7F6B83004CC78F /* Dictationa4.swift */,
+				EA0BCFED2B7F6B8F004CC78F /* Dictationa5.swift */,
+				EA0BCFEF2B7F6B9B004CC78F /* Dictationa6.swift */,
+				EA0BCFF12B7F6BA7004CC78F /* Dictationa7.swift */,
+				EA0BCFF32B7F6BB1004CC78F /* Dictationa8.swift */,
+				EA0BCFF52B7F6BBC004CC78F /* Dictationa9.swift */,
+			);
+			path = Dictation;
+			sourceTree = "<group>";
+		};
+		EA5B522A2B7ECF9C00C80346 /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				EA0BCFE42B7F6B25004CC78F /* Dictation */,
+				EA5B52552B7EDBE700C80346 /* Story */,
+				EA5B52232B7ECD5800C80346 /* AnimalStoryView.swift */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		EA5B52312B7ED43F00C80346 /* plant */ = {
+			isa = PBXGroup;
+			children = (
+				EAE63D762B7F8F270030CFCA /* Dictation */,
+				EA5B52412B7ED95A00C80346 /* Story */,
+				EA5B52252B7ECD6B00C80346 /* PlantStoryView.swift */,
+			);
+			path = plant;
+			sourceTree = "<group>";
+		};
+		EA5B523A2B7ED4A600C80346 /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				EAE63D8A2B7F99AC0030CFCA /* Dictations */,
+				EAE63D892B7F996E0030CFCA /* Storys */,
+				EA5B52272B7ECD7E00C80346 /* SpaceStoryView.swift */,
+			);
+			path = Space;
+			sourceTree = "<group>";
+		};
+		EA5B52412B7ED95A00C80346 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B52322B7ED45B00C80346 /* PlantStory1.swift */,
+				EA5B52362B7ED48600C80346 /* PlantStory2.swift */,
+				EA5B52382B7ED49E00C80346 /* PlantStory3.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		EA5B52552B7EDBE700C80346 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B522D2B7ECFC500C80346 /* AnimalStory2.swift */,
+				EA5B522F2B7ECFD800C80346 /* AnimalStory3.swift */,
+				EA5B522B2B7ECFB700C80346 /* AnimalStory1.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		EAE32B692ADE6CEC00D74F7A = {
+			isa = PBXGroup;
+			children = (
+				EAE32B742ADE6CED00D74F7A /* Betreqo */,
+				EAE32B732ADE6CED00D74F7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE32B732ADE6CED00D74F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE32B722ADE6CED00D74F7A /* Betreqo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE32B742ADE6CED00D74F7A /* Betreqo */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B523A2B7ED4A600C80346 /* Space */,
+				EA5B52312B7ED43F00C80346 /* plant */,
+				EA5B522A2B7ECF9C00C80346 /* Animal */,
+				EAE32B932ADE726100D74F7A /* Info.plist */,
+				EAE32B902ADE71D200D74F7A /* font */,
+				EAE32B752ADE6CED00D74F7A /* BetreqoApp.swift */,
+				EAE32B8E2ADE70CD00D74F7A /* SplashScreen.swift */,
+				EAE32B772ADE6CED00D74F7A /* ContentView.swift */,
+				EAE32B942ADE72C300D74F7A /* MainScreen.swift */,
+				EAF57BA62ADE7C5100112D37 /* ReadingScreen.swift */,
+				EAF57BAC2ADE820A00112D37 /* CelebrationScreen.swift */,
+				EAE32B792ADE6CED00D74F7A /* Assets.xcassets */,
+				EAE32B7B2ADE6CED00D74F7A /* Preview Content */,
+				EAE32B832ADE6DBE00D74F7A /* CustumColor.swift */,
+				EAE32B872ADE6E2A00D74F7A /* ColorPickerView.swift */,
+				EAE32B892ADE6E6500D74F7A /* Contents.swift */,
+			);
+			path = Betreqo;
+			sourceTree = "<group>";
+		};
+		EAE32B7B2ADE6CED00D74F7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAE32B7C2ADE6CED00D74F7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAE32B902ADE71D200D74F7A /* font */ = {
+			isa = PBXGroup;
+			children = (
+				EAE32B912ADE71F300D74F7A /* Ithra */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		EAE63D762B7F8F270030CFCA /* Dictation */ = {
+			isa = PBXGroup;
+			children = (
+				EAE63D772B7F91770030CFCA /* Dictationp1.swift */,
+				EAE63D792B7F91820030CFCA /* Dictationp2.swift */,
+				EAE63D7B2B7F918B0030CFCA /* Dictationp3.swift */,
+				EAE63D7D2B7F91950030CFCA /* Dictationp4.swift */,
+				EAE63D7F2B7F919F0030CFCA /* Dictationp5.swift */,
+				EAE63D812B7F91A90030CFCA /* Dictationp6.swift */,
+				EAE63D832B7F91BD0030CFCA /* Dictationp7.swift */,
+				EAE63D852B7F91C80030CFCA /* Dictationp8.swift */,
+				EAE63D872B7F91D20030CFCA /* Dictationp9.swift */,
+			);
+			path = Dictation;
+			sourceTree = "<group>";
+		};
+		EAE63D892B7F996E0030CFCA /* Storys */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B523F2B7ED4E600C80346 /* SpaceStory3.swift */,
+				EA5B523D2B7ED4D800C80346 /* SpaceStory2.swift */,
+				EA5B523B2B7ED4C600C80346 /* SpaceStory1.swift */,
+			);
+			path = Storys;
+			sourceTree = "<group>";
+		};
+		EAE63D8A2B7F99AC0030CFCA /* Dictations */ = {
+			isa = PBXGroup;
+			children = (
+				EAE63D8B2B7F99C00030CFCA /* Dictations1.swift */,
+				EAE63D8D2B7F99D10030CFCA /* Dictations2.swift */,
+				EAE63D8F2B7F99DB0030CFCA /* Dictations3.swift */,
+				EAE63D912B7F99E60030CFCA /* Dictations4.swift */,
+				EAE63D932B7F99F00030CFCA /* Dictations5.swift */,
+				EAE63D952B7F99FB0030CFCA /* Dictations6.swift */,
+				EAE63D972B7F9A050030CFCA /* Dictations7.swift */,
+				EAE63D992B7F9A0F0030CFCA /* Dictations8.swift */,
+				EAE63D9B2B7F9A1A0030CFCA /* Dictations9.swift */,
+			);
+			path = Dictations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE32B712ADE6CED00D74F7A /* Betreqo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE32B802ADE6CED00D74F7A /* Build configuration list for PBXNativeTarget "Betreqo" */;
+			buildPhases = (
+				EAE32B6E2ADE6CED00D74F7A /* Sources */,
+				EAE32B6F2ADE6CED00D74F7A /* Frameworks */,
+				EAE32B702ADE6CED00D74F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Betreqo;
+			packageProductDependencies = (
+				EAE32B8C2ADE6EEE00D74F7A /* ConfettiSwiftUI */,
+			);
+			productName = Betreqo;
+			productReference = EAE32B722ADE6CED00D74F7A /* Betreqo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE32B6A2ADE6CEC00D74F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EAE32B712ADE6CED00D74F7A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EAE32B6D2ADE6CEC00D74F7A /* Build configuration list for PBXProject "Betreqo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE32B692ADE6CEC00D74F7A;
+			packageReferences = (
+				EAE32B8B2ADE6EEE00D74F7A /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = EAE32B732ADE6CED00D74F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE32B712ADE6CED00D74F7A /* Betreqo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE32B702ADE6CED00D74F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE32B922ADE71F300D74F7A /* Ithra in Resources */,
+				EAE32B7D2ADE6CED00D74F7A /* Preview Assets.xcassets in Resources */,
+				EAE32B7A2ADE6CED00D74F7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE32B6E2ADE6CED00D74F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE63D862B7F91C80030CFCA /* Dictationp8.swift in Sources */,
+				EAE63D802B7F919F0030CFCA /* Dictationp5.swift in Sources */,
+				EAE63D7A2B7F91820030CFCA /* Dictationp2.swift in Sources */,
+				EA0BCFF02B7F6B9B004CC78F /* Dictationa6.swift in Sources */,
+				EAE32B8F2ADE70CD00D74F7A /* SplashScreen.swift in Sources */,
+				EAE32B952ADE72C300D74F7A /* MainScreen.swift in Sources */,
+				EAE63D982B7F9A050030CFCA /* Dictations7.swift in Sources */,
+				EA5B522E2B7ECFC500C80346 /* AnimalStory2.swift in Sources */,
+				EA0BCFF42B7F6BB1004CC78F /* Dictationa8.swift in Sources */,
+				EAE63D822B7F91A90030CFCA /* Dictationp6.swift in Sources */,
+				EA5B52392B7ED49E00C80346 /* PlantStory3.swift in Sources */,
+				EA5B52332B7ED45B00C80346 /* PlantStory1.swift in Sources */,
+				EAE63D7C2B7F918B0030CFCA /* Dictationp3.swift in Sources */,
+				EAE63D882B7F91D20030CFCA /* Dictationp9.swift in Sources */,
+				EA5B52402B7ED4E600C80346 /* SpaceStory3.swift in Sources */,
+				EA0BCFEC2B7F6B83004CC78F /* Dictationa4.swift in Sources */,
+				EA5B52242B7ECD5800C80346 /* AnimalStoryView.swift in Sources */,
+				EAE63D962B7F99FB0030CFCA /* Dictations6.swift in Sources */,
+				EAE32B882ADE6E2A00D74F7A /* ColorPickerView.swift in Sources */,
+				EAE32B8A2ADE6E6500D74F7A /* Contents.swift in Sources */,
+				EAE63D842B7F91BD0030CFCA /* Dictationp7.swift in Sources */,
+				EAE63D782B7F91780030CFCA /* Dictationp1.swift in Sources */,
+				EAF57BA72ADE7C5100112D37 /* ReadingScreen.swift in Sources */,
+				EA5B522C2B7ECFB700C80346 /* AnimalStory1.swift in Sources */,
+				EAE32B842ADE6DBE00D74F7A /* CustumColor.swift in Sources */,
+				EAE63D8C2B7F99C00030CFCA /* Dictations1.swift in Sources */,
+				EAE63D8E2B7F99D10030CFCA /* Dictations2.swift in Sources */,
+				EA0BCFF82B7F7A9E004CC78F /* Dictationa1.swift in Sources */,
+				EAE63D902B7F99DB0030CFCA /* Dictations3.swift in Sources */,
+				EAE32B782ADE6CED00D74F7A /* ContentView.swift in Sources */,
+				EA5B523C2B7ED4C600C80346 /* SpaceStory1.swift in Sources */,
+				EA0BCFEA2B7F6B77004CC78F /* Dictationa3.swift in Sources */,
+				EAE63D922B7F99E60030CFCA /* Dictations4.swift in Sources */,
+				EA0BCFF22B7F6BA7004CC78F /* Dictationa7.swift in Sources */,
+				EAE63D942B7F99F00030CFCA /* Dictations5.swift in Sources */,
+				EAF57BAD2ADE820A00112D37 /* CelebrationScreen.swift in Sources */,
+				EAE32B762ADE6CED00D74F7A /* BetreqoApp.swift in Sources */,
+				EA0BCFE82B7F6B69004CC78F /* Dictationa2.swift in Sources */,
+				EAE63D9A2B7F9A0F0030CFCA /* Dictations8.swift in Sources */,
+				EA5B52262B7ECD6B00C80346 /* PlantStoryView.swift in Sources */,
+				EA5B52282B7ECD7E00C80346 /* SpaceStoryView.swift in Sources */,
+				EA0BCFEE2B7F6B8F004CC78F /* Dictationa5.swift in Sources */,
+				EAE63D9C2B7F9A1A0030CFCA /* Dictations9.swift in Sources */,
+				EA5B523E2B7ED4D800C80346 /* SpaceStory2.swift in Sources */,
+				EA5B52372B7ED48600C80346 /* PlantStory2.swift in Sources */,
+				EAE63D7E2B7F91950030CFCA /* Dictationp4.swift in Sources */,
+				EA0BCFF62B7F6BBC004CC78F /* Dictationa9.swift in Sources */,
+				EA5B52302B7ECFD800C80346 /* AnimalStory3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAE32B7E2ADE6CED00D74F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE32B7F2ADE6CED00D74F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE32B812ADE6CED00D74F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Betreqo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Betreqo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aple.Betreqo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAE32B822ADE6CED00D74F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Betreqo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Betreqo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aple.Betreqo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE32B6D2ADE6CEC00D74F7A /* Build configuration list for PBXProject "Betreqo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE32B7E2ADE6CED00D74F7A /* Debug */,
+				EAE32B7F2ADE6CED00D74F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE32B802ADE6CED00D74F7A /* Build configuration list for PBXNativeTarget "Betreqo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE32B812ADE6CED00D74F7A /* Debug */,
+				EAE32B822ADE6CED00D74F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EAE32B8B2ADE6EEE00D74F7A /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAE32B8C2ADE6EEE00D74F7A /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EAE32B8B2ADE6EEE00D74F7A /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EAE32B6A2ADE6CEC00D74F7A /* Project object */;
+}
